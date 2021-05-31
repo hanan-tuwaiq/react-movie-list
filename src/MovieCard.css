@@ -1,0 +1,42 @@
+body {
+    margin: 0;  
+    background-color: #F7F7FF;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.cardsContainer {
+    width: 800px;
+    margin: 0 auto;
+}
+.card{
+    margin: 15px;
+    padding: 10px;
+    float: left;
+    width: 350px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    line-height: 150%;
+    text-align: left;
+}
+.card img {
+    float: left;
+    margin-right: 10px;
+    width: 45%;
+    height: auto;
+}
+.card span {
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 0px 7px;
+}
+.card button{
+    background-color: #f7f06d;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.card button:hover{
+    cursor: pointer;
+}
